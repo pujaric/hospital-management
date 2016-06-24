@@ -23,7 +23,7 @@
 		</table>
 		</fieldset>
 		
-		<table align="right"><tr><td> <font color="red" size="5">Dont have an ID </font></td></tr><tr><td><a href="../feelsafeJspFiles/newuser.jsp"> Create NewUser</a></td></tr></table>
+		<table align="center"><tr><td> <font color="red" size="5">Dont have an ID </font></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../feelsafeJspFiles/newuser.jsp">Create NewUser</a></td></tr></table>
 		</td></tr></table>
 
 		</html:form>

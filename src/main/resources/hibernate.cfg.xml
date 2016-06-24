@@ -9,24 +9,29 @@
 	<session-factory>
 		<property name="connection.username">root</property>
 		<property name="connection.url">
-			jdbc:mysql://localhost:3306/chandu/hospital
+			jdbc:mysql://localhost:3306/hospital
 		</property>
 		<property name="dialect">
 			org.hibernate.dialect.MySQL5Dialect
 		</property>
 		<property name="myeclipse.connection.profile">db</property>
-		<property name="connection.password">abc</property>
+		<!--<property name="connection.password">abc</property>-->
 		<property name="connection.driver_class">
 			com.mysql.jdbc.Driver
 		</property>
-		<mapping resource="feelsafeHibernatePackage/Rooms.hbm.xml" />
-		<mapping resource="feelsafeHibernatePackage/Otherfees.hbm.xml" />
+
+        <!--when you use newer version of Hibernate in your application while pre-packaged hibernate jars (that come with jboss server) are of older version-->
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <property name="hibernate.validator.autoregister_listeners">false</property>
+
+		<mapping resource="Rooms.hbm.xml" />
+		<mapping resource="Otherfees.hbm.xml" />
 		<mapping
-			resource="feelsafeHibernatePackage/Appointments.hbm.xml" />
-		<mapping resource="feelsafeHibernatePackage/Health.hbm.xml" />
-		<mapping resource="feelsafeHibernatePackage/Patient.hbm.xml" />
-		<mapping resource="feelsafeHibernatePackage/Employees.hbm.xml" />
-		<mapping resource="feelsafeHibernatePackage/Doctorfees.hbm.xml" />
+			resource="Appointments.hbm.xml" />
+		<mapping resource="Health.hbm.xml" />
+		<mapping resource="Patient.hbm.xml" />
+		<mapping resource="Employees.hbm.xml" />
+		<mapping resource="Doctorfees.hbm.xml" />
 
 	</session-factory>
 
