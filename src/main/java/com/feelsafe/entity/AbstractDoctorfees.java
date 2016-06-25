@@ -1,4 +1,4 @@
-package feelsafeHibernatePackage;
+package com.feelsafe.entity;
 
 
 

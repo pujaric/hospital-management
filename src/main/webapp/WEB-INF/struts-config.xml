@@ -5,7 +5,7 @@
 	<data-sources />
 	
 	<form-beans>
-		<form-bean name="feelSafeForm" type="com.feelsafe.struts.form.FeelSafeForm" />
+		<form-bean name="feelSafeForm" type="com.feelsafe.form.FeelSafeForm" />
 	</form-beans>
 
 	<global-exceptions />
@@ -18,7 +18,7 @@
 	<action-mappings>
 		<action attribute="feelSafeForm" input="/index.jsp" name="feelSafeForm"
 			parameter="do" path="/feelSafe" scope="request"
-			type="com.feelsafe1.struts.action.FeelSafeAction">
+			type="com.feelsafe.action.FeelSafeAction">
 			<forward name="adminmainpage" path="feelsafe.adminmainpage" />
 			<forward name="login" path="feelsafe.login" />
 			<forward name="systemreport" path="feelsafe.systemreport" />

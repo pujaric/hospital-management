@@ -30,7 +30,7 @@
   </head>
   
   <body>
-  <html:form name="form2" type="com.feelsafe.struts.form.FeelSafeForm" action="/feelSafe.do?do=healthawareness1">
+  <html:form name="form2" type="com.feelsafe.form.FeelSafeForm" action="/feelSafe.do?do=healthawareness1">
   <center>
   <b><font color="#FF0000"> APPOINTMENT RE-SCHEDULING</font> </b><br><br>
     <table>

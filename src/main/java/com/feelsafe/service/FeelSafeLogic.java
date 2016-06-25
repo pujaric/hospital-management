@@ -1,7 +1,7 @@
-package feelsafeLogic;
+package com.feelsafe.service;
 
 import java.util.*;
-import feelsafeHibernatePackage.*;
+import com.feelsafe.entity.*;
 import org.hibernate.*;
 import org.hibernate.criterion.*;
 

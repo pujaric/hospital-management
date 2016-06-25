@@ -30,7 +30,7 @@
   </head>
   
   <body>
-  <html:form name="form1" type="com.feelsafe.struts.form.FeelSafeForm" action="/feelSafe.do?do=appointmentscheduling1">
+  <html:form name="form1" type="com.feelsafe.form.FeelSafeForm" action="/feelSafe.do?do=appointmentscheduling1">
   <center>
   <b><font color="#FF0000"> APPOINTMENT SCHEDULING</font> </b><br><br>
   <bean:write property="errorMessage" name="feelSafeForm" filter="false"/>

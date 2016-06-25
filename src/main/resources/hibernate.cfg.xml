@@ -15,7 +15,7 @@
 			org.hibernate.dialect.MySQL5Dialect
 		</property>
 		<property name="myeclipse.connection.profile">db</property>
-		<!--<property name="connection.password">abc</property>-->
+		<property name="connection.password">abc</property>
 		<property name="connection.driver_class">
 			com.mysql.jdbc.Driver
 		</property>

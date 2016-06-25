@@ -1,5 +1,6 @@
 <%@ page language="java" pageEncoding="ISO-8859-1"%>
 <%@ page language="java" import="feelsafeLogic.*" %>
+<%@ page import="com.feelsafe.service.FeelSafeLogic" %>
 
 <%@ taglib uri="http://jakarta.apache.org/struts/tags-bean" prefix="bean" %>
 <%@ taglib uri="http://jakarta.apache.org/struts/tags-html" prefix="html" %>
